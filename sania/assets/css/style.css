@@ -405,7 +405,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -500,7 +500,28 @@ section {
   border: 2px solid #1f5297;
 }
 
+/* #certificate */
+.certificate .certificate-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+.certificate-item span {
+  display: block;
+  position: flex;
+  margin: 20px;
+}
+.certificate-item img {
+  display: block;
+  margin: 20px;
+  padding: auto;
+}
+
 /*--------------------------------------------------------------
+
+
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
